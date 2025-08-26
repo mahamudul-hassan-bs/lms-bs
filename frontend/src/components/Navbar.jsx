@@ -7,10 +7,10 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FaUser } from "react-icons/fa6";
 const Navbar = () => {
   return (
-    <div className="flex flex-row items-center justify-between  px-12 ">
+    <div className="flex flex-row items-center justify-between  px-12  ">
       <div className="flex flex-row items-center ">
         <div className="">
-          <img height={"221px"} width={"221px"} src={logo} alt="Logo" />
+          <img height={"150px"} width={"150px"} src={logo} alt="Logo" />
         </div>
         <div>
           <CgMenuGridR size={"30px"} color="gray" />

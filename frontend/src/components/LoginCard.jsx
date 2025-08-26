@@ -26,7 +26,10 @@ const LoginCard = () => {
           </button>
         </div>
         <div className="text-[#00000099] mt-6">
-          Already have an account? Go to login
+          Already have an account?{" "}
+          <a href="#" className="text-blue-500  underline">
+            Go to login
+          </a>
         </div>
       </div>
     </div>
